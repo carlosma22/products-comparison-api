@@ -100,6 +100,17 @@ proyecto/
 - ✅ Archivo `.spec.ts` debe estar en el **mismo directorio** del archivo que prueba
 - ✅ Nomenclatura: `{nombre}.spec.ts` junto a `{nombre}.ts`
 
+📝 **Convenciones de Nomenclatura:**
+- ✅ **camelCase** para todo el código:
+  * Variables: `productName`, `userId`, `imageUrl`
+  * Funciones: `findAll()`, `compareProducts()`, `getProductById()`
+  * Propiedades de objetos: `firstName`, `lastName`, `createdAt`
+- ✅ **Datos en inglés** (base de datos, JSON, campos):
+  * ❌ Evitar: `nombre`, `descripción`, `precio`, `fecha_creacion`
+  * ✅ Usar: `name`, `description`, `price`, `createdAt`
+  * Todos los campos de BD/JSON en inglés
+  * Mensajes de error pueden ser en español para usuarios finales
+
 ✅ **Criterios de calidad:**
 - Código modular, limpio y documentado
 - Buen manejo de errores
@@ -468,6 +479,15 @@ proyecto/
    - Documentación Swagger completa
    - Manejo de errores centralizado
    - Inyección de dependencias
+   - ✅ **Nomenclatura camelCase** para todo el proyecto:
+     * Variables: `productName`, `userId`
+     * Funciones/Métodos: `findAll()`, `compareProducts()`
+     * Propiedades: `imageUrl`, `productId`
+   - ✅ **Datos en inglés** (nombres de campos, valores, mensajes):
+     * ❌ `nombre`, `descripción`, `precio`
+     * ✅ `name`, `description`, `price`
+     * Base de datos/JSON siempre en inglés
+     * Comentarios en código pueden ser en español/inglés
 
 4. **Docker:**
    - Multi-stage build
@@ -496,6 +516,9 @@ Este prompt actualizado garantiza:
 - ✅ Tests en ubicación correcta
 - ✅ Cobertura de pruebas completa
 - ✅ Fácil mantenimiento y escalabilidad
+- ✅ **Nomenclatura camelCase** en todo el código
+- ✅ **Datos en inglés** para internacionalización
+- ✅ Código profesional y estándares de la industria
 
 ---
 
