@@ -92,7 +92,8 @@ describe('Products API (e2e)', () => {
         .expect(400)
         .expect((res) => {
           expect(res.body).toHaveProperty('statusCode', 400);
-          expect(res.body.message).toContain('números separados por comas');
+          expect(Array.isArray(res.body.message)).toBe(true);
+          expect(res.body.message[0]).toContain('números separados por comas');
         });
     });
 

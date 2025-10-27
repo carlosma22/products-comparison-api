@@ -7,7 +7,7 @@ Este documento explica la arquitectura escalable implementada en el proyecto.
 ## 🏗️ Estructura Completa
 
 ```
-meli-test/
+products-comparison-api/
 │
 ├── Dockerfile
 ├── docker-compose.yml

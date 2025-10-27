@@ -183,7 +183,7 @@ GET /products/compare?ids=1,2,3
 
 1. **Clonar el repositorio:**
 ```bash
-git clone <repository-url>
+git clone https://github.com/carlosma22/products-comparison-api
 cd products-comparison-api
 ```
 

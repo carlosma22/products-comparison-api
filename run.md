@@ -29,7 +29,7 @@ docker --version # Debe mostrar Docker version 20.x.x o superior
 
 ```bash
 # Si usas Git
-git clone <repository-url>
+git clone https://github.com/carlosma22/products-comparison-api
 cd products-comparison-api
 
 # O descomprime el archivo ZIP en una carpeta
