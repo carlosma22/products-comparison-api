@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  # Servicio de la API NestJS
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: products-comparison-api
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    volumes:
+      # Volumen para desarrollo (comentar en producción)
+      # - ./src:/app/src
+      # - ./node_modules:/app/node_modules
+      - ./src/config/data:/app/dist/config/data:ro
+    networks:
+      - app-network
+    healthcheck:
+      test: ['CMD', 'wget', '--quiet', '--tries=1', '--spider', 'http://localhost:3000/products']
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  app-network:
+    driver: bridge
+
+# Configuración para desarrollo con hot-reload (opcional)
+# Descomentar el siguiente servicio para desarrollo
+#
+# services:
+#   api-dev:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile.dev
+#     container_name: products-api-dev
+#     restart: unless-stopped
+#     ports:
+#       - '3000:3000'
+#     environment:
+#       - NODE_ENV=development
+#       - PORT=3000
+#     volumes:
+#       - ./src:/app/src
+#       - ./node_modules:/app/node_modules
+#     command: npm run start:dev
+#     networks:
+#       - app-network

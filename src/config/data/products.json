@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone Samsung Galaxy S23 Ultra",
+    "imageUrl": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=500",
+    "description": "Smartphone premium con cámara de 200MP, pantalla Dynamic AMOLED 2X de 6.8 pulgadas y S Pen integrado. Procesador Snapdragon 8 Gen 2 para rendimiento excepcional.",
+    "price": 1199.99,
+    "rating": 4.8,
+    "specifications": [
+      {
+        "key": "Pantalla",
+        "value": "6.8 pulgadas Dynamic AMOLED 2X, 120Hz"
+      },
+      {
+        "key": "Procesador",
+        "value": "Snapdragon 8 Gen 2"
+      },
+      {
+        "key": "RAM",
+        "value": "12GB"
+      },
+      {
+        "key": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "key": "Cámara Principal",
+        "value": "200MP con estabilización óptica"
+      },
+      {
+        "key": "Batería",
+        "value": "5000mAh con carga rápida 45W"
+      },
+      {
+        "key": "Sistema Operativo",
+        "value": "Android 13, One UI 5.1"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Laptop Dell XPS 15",
+    "imageUrl": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500",
+    "description": "Laptop ultradelgada con pantalla InfinityEdge de 15.6 pulgadas, procesador Intel Core i7 de 12va generación y gráficos NVIDIA RTX 4050. Ideal para profesionales creativos.",
+    "price": 1899.99,
+    "rating": 4.6,
+    "specifications": [
+      {
+        "key": "Pantalla",
+        "value": "15.6 pulgadas FHD+ (1920x1200), 500 nits"
+      },
+      {
+        "key": "Procesador",
+        "value": "Intel Core i7-12700H (14 núcleos)"
+      },
+      {
+        "key": "RAM",
+        "value": "16GB DDR5"
+      },
+      {
+        "key": "Almacenamiento",
+        "value": "512GB SSD NVMe"
+      },
+      {
+        "key": "Tarjeta Gráfica",
+        "value": "NVIDIA GeForce RTX 4050 6GB"
+      },
+      {
+        "key": "Batería",
+        "value": "86Wh, hasta 12 horas"
+      },
+      {
+        "key": "Peso",
+        "value": "1.86 kg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Auriculares Sony WH-1000XM5",
+    "imageUrl": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500",
+    "description": "Auriculares inalámbricos con cancelación de ruido líder en la industria, audio de alta resolución y hasta 30 horas de batería. Diseño premium y cómodo para uso prolongado.",
+    "price": 399.99,
+    "rating": 4.9,
+    "specifications": [
+      {
+        "key": "Tipo",
+        "value": "Over-ear, inalámbricos"
+      },
+      {
+        "key": "Cancelación de Ruido",
+        "value": "Activa con 8 micrófonos"
+      },
+      {
+        "key": "Conectividad",
+        "value": "Bluetooth 5.2, NFC, cable 3.5mm"
+      },
+      {
+        "key": "Batería",
+        "value": "30 horas con ANC, carga rápida 3min = 3h"
+      },
+      {
+        "key": "Drivers",
+        "value": "30mm con diafragma de carbono"
+      },
+      {
+        "key": "Codecs",
+        "value": "LDAC, AAC, SBC"
+      },
+      {
+        "key": "Peso",
+        "value": "250g"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Smart TV LG OLED C3 55 pulgadas",
+    "imageUrl": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500",
+    "description": "Televisor OLED 4K con procesador α9 Gen6 AI, Dolby Vision IQ y Dolby Atmos. Perfecto para gaming con HDMI 2.1, 120Hz y G-Sync. WebOS 23 con ThinQ AI.",
+    "price": 1499.99,
+    "rating": 4.7,
+    "specifications": [
+      {
+        "key": "Tamaño",
+        "value": "55 pulgadas"
+      },
+      {
+        "key": "Resolución",
+        "value": "4K UHD (3840x2160)"
+      },
+      {
+        "key": "Tecnología",
+        "value": "OLED con píxeles autoiluminados"
+      },
+      {
+        "key": "Procesador",
+        "value": "α9 Gen6 AI con AI Picture Pro"
+      },
+      {
+        "key": "Tasa de Refresco",
+        "value": "120Hz nativo"
+      },
+      {
+        "key": "HDR",
+        "value": "Dolby Vision IQ, HDR10, HLG"
+      },
+      {
+        "key": "Gaming",
+        "value": "HDMI 2.1, VRR, G-Sync, FreeSync"
+      },
+      {
+        "key": "Sistema Operativo",
+        "value": "webOS 23 con ThinQ AI"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Smartwatch Apple Watch Series 9",
+    "imageUrl": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500",
+    "description": "Reloj inteligente con chip S9, pantalla Retina siempre activa más brillante, sensores de salud avanzados y resistencia al agua hasta 50m. Integración perfecta con el ecosistema Apple.",
+    "price": 429.99,
+    "rating": 4.8,
+    "specifications": [
+      {
+        "key": "Tamaño",
+        "value": "45mm"
+      },
+      {
+        "key": "Pantalla",
+        "value": "Retina LTPO OLED siempre activa, 2000 nits"
+      },
+      {
+        "key": "Chip",
+        "value": "Apple S9 SiP con GPU de 4 núcleos"
+      },
+      {
+        "key": "Sensores",
+        "value": "ECG, oxígeno en sangre, temperatura"
+      },
+      {
+        "key": "Batería",
+        "value": "Hasta 18 horas, carga rápida"
+      },
+      {
+        "key": "Resistencia",
+        "value": "Agua 50m, polvo IP6X"
+      },
+      {
+        "key": "Conectividad",
+        "value": "GPS, Bluetooth 5.3, WiFi, LTE opcional"
+      },
+      {
+        "key": "Sistema Operativo",
+        "value": "watchOS 10"
+      }
+    ]
+  }
+]
